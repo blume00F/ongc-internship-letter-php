@@ -1,0 +1,161 @@
+body {
+  position: relative;
+  margin: 6px;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+.header {
+  padding: 1px; /* some padding */
+  text-align: left; /* center the text */
+  background: #990000; /* green background */
+  color: white; /* white text color */
+
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+  margin-left: 110px;
+}
+.logo img{
+	padding-left: 10px;
+	height:auto;
+	width:100px;
+	float:left;
+}
+
+
+
+/*---------------------------------VRTICAL MANU--------------------------*/
+
+.vertical-menu {
+  width: 250px;
+  float: left; 
+}
+
+.vertical-menu a {
+  background-color: #f2f2f2; 
+  color: black; 
+  display: block; 
+  padding: 16px; 
+  text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+  background-color: #990000;
+  color: white; 
+}
+
+.vertical-menu a.active {
+  background-color: #990000; 
+  color: white;
+}
+/*-------------------------FIX FOR THE LIFE AT ONGC-----------------*/
+
+article {
+  float: left;
+  padding: 20px;
+  width: 79%;
+  background-color: #ffffff;
+  height: 300px; 
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*--------------------INTERNS DETAILS------------------------*/
+h1{
+
+  font-size: 15px;
+  width: 70%;
+  padding: 10px;
+  text-align: left; /* center the text */
+  background: #990000; /* green background */
+  color: white; /* white text color */
+  margin-left: 65px;
+
+}
+
+
+
+
+#frm{
+  width: 100%;
+  margin-left: 65px;
+  background: white;
+  padding: 5px;
+}
+
+#btn
+{
+  color: #ffffff;
+  background: #990000;
+  padding: 8px;
+  margin-left: 0px;
+  width: 14%;
+  margin-top: 14px;
+}
+
+/*--------------------FOOTER---------------------------*/
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+.navbar2 {
+  overflow: hidden; /* Hide overflow */
+  background-color: #990000; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar2 a {
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+}
+
+/* Right-aligned link */
+.navbar2 a.right {
+  float: right; 
+}
+
+/* Change color on hover/mouse-over */
+.navbar2 a:hover {
+  background-color: #f2f2f2; 
+  color: black; 
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 1500px;
+  width: 100%;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
