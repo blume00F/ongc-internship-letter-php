@@ -97,7 +97,7 @@ ONGC Academy is located in the lush green environment of the Himalayas at Dehra 
   margin-left: 50px;
 }
 </style>
-<button class="collapsible">Various Institutes of ONGC</button>
+<button class="collapsible">+ Various Institutes of ONGC</button>
 <div class="content">
    <p style="margin-left: 50px; color: #000000; font-size: 14px; margin-right: 40px;margin-top:40px"><b>GEOPIC</b></p>
   <p style="margin-left: 50px; color: #000000; font-size: 14px; margin-right: 40px;">Geodata Processing and Interpretation Centre established in 1987 at ONGC, Dehradun provides solutions to complex E&P problems by integrating seismic with other geoscientific data. Land and marine seismic data of ONGC of Indian & Foreign basins is processed and interpreted synergistically at this centre which has world class state-of-the-art infrastructure backed by specialists.Since inception, GEOPIC transformed itself into a Centre for Excellence and today is one of the premier institutes of ONGC.</p>
@@ -164,8 +164,8 @@ ONGC Academy has an experienced core and visiting external faculty from in-house
   	  <input type="text" name="name" id="name" required>
   	</p>
     <p>
-  	  <label>Phone No:</label>
-  	  <input type="text" id="phone" name="phone" required>
+  	  <label>Email ID:</label>
+  	  <input style="margin-left: 14px" type="text" id="email" name="email" required>
   	</p>
   	<p>
       <input type="submit" id="btn" value="Print" name="print" />

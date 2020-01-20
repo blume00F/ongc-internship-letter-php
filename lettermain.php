@@ -9,35 +9,26 @@
 	<div>
 		 <img src="resources/logo.png" alt="ONGC logo" style="width:100px;height:100px;float:left;"> 
 		<font size="4">
+			
 			<center>
-				<strong>ऑयल एण्ड नेचुरल गैस कॉरपोरेशन लिमिटेड</strong>
-			</center>
-			<center>
-				ओएनजीसी अकादमी
-			</center>
-			<center>
-				केडीएमआईपीई परिसर, कौलागढ़ रोड, देहरादून - 248195
-				</center>
-			<center>
-				<strong style="padding-left: 80px">Oil and Natural Gas Corporation Limited</strong>
+				<strong style="padding-left: 0px">Oil and Natural Gas Corporation Limited</strong>
 			</center>
 			<center style="padding-left: 80px"> ONGC Academy</center>
 			<center style="padding-left: 90px">KDMIPE Campus, Kaulagarh Road, Dehradun - 248195</center>
 			<center style="padding-left: 90px">Ph. 0135-2795103 Fax. 0135-2758832</center>
 		</font>
 
-<form action="submit.php" method="POST">
+<form method="POST">
 	<font size="3">
-	  <p align="left">File No. OA/SAIL/CSE/2020-21 </p>					<p align="right"> Date: <?php echo date("d/m/Y"); ?></p>
+	  <p style="margin-top:80px; align:left ">File No. OA/SAIL/CSE/2020-21 </p>					<p align="right"> Date: <?php echo date("d/m/Y"); ?></p>
 	  <p>
 			To,
 		<br>
 			<strong>Mr./Ms./Mrs. <?php session_start(); echo $_SESSION["namee"]; ?></strong>
-		<br>
-			( Mob. # +91 <?php echo $_SESSION["phonee"]; ?> )
+		
 		</p>
 		<p align="left">
-			This has reference to your request letter for training in BE/B.Tech - Computer Science at ONGC, Dehradun. We are plaeased to inform that your name has been short-listed by the competent authority for Winter training for a period of 1 Month. You are hereby requested to report to Rajneesh Badoni, General Manager ( Electronics & Telecom ), C/INFO IT DN, Dehradun, Mob. # 9411114300 for training on  <?php echo date("d/m/Y"); ?>. This Training shall be under the following terms and conditions:
+			This has reference to your request letter for training in BE/B.Tech - Computer Science at ONGC, Dehradun. We are plaeased to inform that your name has been short-listed by the competent authority for Winter training for a period of 1 Month. You are hereby requested to report to Mr. Rajneesh Badoni, General Manager ( Electronics & Telecom ), C/INFO IT DN, Dehradun, Mob. # 9411114300 for training on  <?php echo date("d/m/Y"); ?>. This Training shall be under the following terms and conditions:
 			<ol type="1">
 				<li>ONGC will not provide any Boarding/ Loading/ Transportation to the student during the period of Training.</li>
 				<li>No stipend will be paid to the student by ONGC for the period of the training.</li>
@@ -72,6 +63,8 @@
 		</ol>
 	</p>
 </form>
+
+
 </div>
 </body>
 </html>

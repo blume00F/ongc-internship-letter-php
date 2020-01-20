@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download Your Letter</title>
+</head>
+
+<body>
+<style>
+
+
+
+	#frm{
+  border: solid #990000 5px;
+  width: 30%;
+  border-radius: 5px;
+  margin-left: 400px;
+  margin-top: 200px;
+  background: white;
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+#btn
+{
+  color: #ffffff;
+  background: #990000;
+  padding: 5px;
+  margin-left: 75%;
+  margin-top: 2%;
+  width: 30%;
+}
+#btn2
+{
+  color: #ffffff;
+  background: #990000;
+  padding: 5px;
+  margin-left: 75%;
+  margin-top: 2%;
+  width: 30%;
+}
+
+#btn3
+{
+  color: #ffffff;
+  background: #990000;
+  padding: 5px;
+  margin-left: 56%;
+  margin-top: 2%;
+  width: 12%;
+}
+.control-label {
+    
+    font-size: 20px;
+}
+</style>
+<div id="frm">
+<form action="email.php" method="post" >
+  <label class="control-label">Please choose an action.</label>
+    <input type="submit" id="btn" name="action" onClick="window.location.href='email.php'" class="class" value="Email Letter" />
+   </form>
+<form action="pdf.php" method="post">
+    <input type="submit" id="btn2" name="action" onClick="window.location.href='pdf.php'" class="class" value=" Download as PDF" />
+   </form>
+
+</div>
+</p>
+      <input type=button id= "btn3" onClick="location.href='index.php'" value='Back to Home'/>
+    </p>
+</body>
+</html>
+
+</div>
+</body>
+</html>
+   
