@@ -197,7 +197,7 @@ ISM, RGIPT.</li>
 <li>No preference will be given to relatives and friends of ONGC employees.</li>
 <li>Summer / winter training will be given to a student only once by ONGC.</li></ul>
  </p>
- <p style="margin-left: 50px; color: #000000; font-size: 17px; margin-right: 40px;"> <b>***To apply for internship at ONGC click on the button below:</b></p>
+ <p style="margin-left: 50px; color: #000000; font-size: 18px; margin-right: 40px;"> <b>***To apply for internship at ONGC click on the button below:</b></p>
 <input type=button id= "btn2" onClick="location.href='fillform.html'" value='Click to Apply'>
 
 <div class="demo">
